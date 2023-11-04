@@ -34,7 +34,7 @@ public class Ejemplo_menu {
                 break;
             case 3:
                 System.out.println("vas a dividir");
-                resultado= operando1/operando2;
+                resultado= (double) operando1/operando2;
 
                 break;
             case 4:
