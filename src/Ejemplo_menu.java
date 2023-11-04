@@ -46,7 +46,10 @@ public class Ejemplo_menu {
                 System.out.println("saliendo.....");
                 break;
         }
-        System.out.println("El resultado obtendio es: "+resultado);
+        if (operando1>0 && operando2<5){
+            System.out.println("El resultado obtendio es: "+resultado);
+        }
+
 
 
     }
